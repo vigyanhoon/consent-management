@@ -19,10 +19,12 @@ const buttonContainer = document.createElement('div')
 buttonContainer.className = 'buttonContainer'
 
 const acceptButton = document.createElement('button')
+acceptButton.className = 'button'
 const accept = document.createTextNode("Accept");
 acceptButton.appendChild(accept);
 
 const rejectButton = document.createElement('button')
+rejectButton.className = 'button'
 const reject = document.createTextNode("Reject");
 rejectButton.appendChild(reject);
 
