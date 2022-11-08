@@ -3,7 +3,7 @@ import './styles.css'
 import { createRoot } from 'react-dom/client';
 import React from 'react'
 
-import Consent1 from './consent1/consent1';
+import App from './App'
 
 const container = document.createElement('div')
 container.className = 'container'
@@ -13,4 +13,4 @@ app.append(container)
 
 const domContainer = document.querySelector('.container');
 const root = createRoot(domContainer);
-root.render(<Consent1 />);
+root.render(<App />);
